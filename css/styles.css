@@ -516,6 +516,8 @@ body.dark-mode {
 .project__demo-link {
   position: relative;
   bottom: -24px;
+
+  display: block;
 }
 
 .project__demo-link:hover .project__img {
@@ -532,13 +534,18 @@ body.dark-mode {
   left: 50%;
   z-index: 10;
 
+  display: block;
+  max-width: 110px;
   padding: 5px 10px;
 
+  text-align: center;
   color: var(--floral-white);
 
   background-color: var(--blur-background);
   border-radius: 40px;
-  transform: translate(-50%, -50%);
+  -webkit-transform: translate(-50%, -50%);
+      -ms-transform: translate(-50%, -50%);
+          transform: translate(-50%, -50%);
   opacity: 0;
 }
 
