@@ -363,6 +363,10 @@ body.dark-mode {
   mask-image: url("../assets/svg/badges/figma.svg");
 }
 
+.badge-storage.badge::before {
+  mask-image: url("../assets/svg/badges/storage.svg");
+}
+
 /* BADGES: colors */
 
 .intro__badges .badge {
