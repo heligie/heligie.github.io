@@ -39,6 +39,7 @@
 }
 
 :root {
+  --amour: #f8e8ed;
   --black-pearl: #1c1e20;
   --blue-marguerite: #7767b6;
   --blur-background: rgba(0, 0, 0, 0.6);
@@ -56,6 +57,8 @@
   --matterhorn: #545353;
   --moon-light: radial-gradient(circle, rgba(238,174,202,1) 0%, rgba(148,187,233,1) 100%);
   --rebel: #403d3c;
+  --royal-heath: #be4e76;
+  --shocking: #e99cb7;
   --sun-light: linear-gradient(90deg, rgba(131,58,180,1) 0%, rgba(253,29,29,1) 50%, rgba(252,176,69,1) 100%);
   --white: #ffffff;
 }
@@ -626,4 +629,16 @@ body.dark-mode {
 
 .husk .badge {
   background-color: var(--chenin);
+}
+
+.project.amour {
+  background: linear-gradient(var(--amour) 95%, transparent 95%);
+}
+
+.amour .project__link {
+  background-color: var(--royal-heath);
+}
+
+.amour .badge {
+  background-color: var(--shocking);
 }
