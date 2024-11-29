@@ -42,8 +42,11 @@
   --black-pearl: #1c1e20;
   --blue-marguerite: #7767b6;
   --blur-background: rgba(0, 0, 0, 0.6);
+  --chenin: #dbc678;
+  --early-dawn: #f9f2e0;
   --festival: #f5ce40;
   --floral-white: #fefdf9;
+  --husk: #b79e49;
   --inter-bold: "Inter Bold", sans-serif;
   --inter-medium: "Inter Medium", sans-serif;
   --inter-regular: "Inter Regular", sans-serif;
@@ -121,7 +124,7 @@ a {
   max-width: 960px;
   min-height: 100%;
   margin: 0 auto;
-  padding: 0 20px;
+  padding: 0 20px 20px;
 }
 
 /* DARK_MODE */
@@ -223,7 +226,7 @@ body.dark-mode {
   display: inline-block;
   width: 100%;
   margin-bottom: 20px;
-  padding: 22px 24px;
+  padding: 22px 24px 25px;
 }
 
 /* PORTFOLIO: intro */
@@ -611,4 +614,16 @@ body.dark-mode {
 
 .lavender .badge {
   background-color: var(--lavender-blue);
+}
+
+.project.husk {
+  background: linear-gradient(var(--early-dawn) 95%, transparent 95%);
+}
+
+.husk .project__link {
+  background-color: var(--husk);
+}
+
+.husk .badge {
+  background-color: var(--chenin);
 }
