@@ -503,6 +503,7 @@ body.dark-mode {
   margin: 0;
 
   font-size: 30px;
+  line-height: 25px;
   font-family: var(--inter-bold);
 }
 
